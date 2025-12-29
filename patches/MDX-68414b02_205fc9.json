@@ -1,0 +1,249 @@
+[
+    {
+        "gameCode": "MDX",
+        "version": "2025-06-10 (001)",
+        "lastUpdated": "2025-09-29 18:18:00",
+        "source": "https://sp2x.two-torial.xyz/"
+    },
+    {
+        "name": "Mute Announcer",
+        "description": "Mutes the announcer and cheering voices.",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 290547,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "0F84",
+                "dataEnabled": "90E9"
+            },
+            {
+                "offset": 2994351,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "76",
+                "dataEnabled": "62"
+            }
+        ]
+    },
+    {
+        "name": "Timer Freeze",
+        "description": "Freezes all timers.",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 211355,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "0F84",
+                "dataEnabled": "90E9"
+            }
+        ]
+    },
+    {
+        "name": "Center arrows for single player",
+        "description": "Centers the arrows for single player.",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 366957,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            },
+            {
+                "offset": 367172,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "7505",
+                "dataEnabled": "9090"
+            },
+            {
+                "offset": 367709,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "83C40C8D4C2420",
+                "dataEnabled": "E9F196FAFF9090"
+            },
+            {
+                "offset": 13139,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+                "dataEnabled": "83C40C8D4C242036C701EF010000E9FE680500"
+            },
+            {
+                "offset": 367602,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "83C40C8D442420",
+                "dataEnabled": "E9DD14FBFF9090"
+            },
+            {
+                "offset": 45268,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+                "dataEnabled": "83C40C8D44242036C700EF010000E912EB0400"
+            }
+        ]
+    },
+	{
+        "name": "Optimize 'NOW LOADING' Screen",
+        "description": "Optimizes the 'NOW LOADING' screen on boot, significantly reducing load time (song metadata in-game remains intact)",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 174982,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "8BE55DC38B",
+                "dataEnabled": "E9C5EA2200"
+            },
+            {
+                "offset": 2463312,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                "dataEnabled": "8BE55D565753E8000000005B8B4C24148B41408D34408B796C8B3CB785FF742A8D3C7F01FF8B83850437008B40048B44F8183C08740C84C074083C06770C3C0572085F5E5BE9560CDDFF5F5E5BC3"
+            }
+        ]
+    },
+    {
+        "name": "Skip 'NOW LOADING ...' on boot",
+        "description": "Skips the 'NOW LOADING ...' text on boot.",
+        "caution": "Skips CheckStepDataActor, so music select screen will display 0 BPM for every song.",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 152781,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "74",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Skip Konami jingle and logo",
+        "description": "Skips the Konami jingle and its animation when starting the game.",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 2994668,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "6C",
+                "dataEnabled": "62"
+            }
+        ]
+    },
+    {
+        "name": "Fake Premium Free",
+        "description": "Fakes a Premium Free-like mode.",
+        "caution": "Make sure your network supports and allows this before enabling! BUG: ghost score pacemaker indicator doesn't reload in the same round if a new best is achieved.",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 165631,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "01",
+                "dataEnabled": "89"
+            }
+        ]
+    },
+    {
+        "name": "Hide all bottom text",
+        "description": "Hides all text typically found in the bottom corners of the screen such as \"CREDITS\", \"TOKEN\", \"PASELI\", \"FREE PLAY\", etc..",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 2492796,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "4556454E54204D4F444500004652454520504C41590000005300000020000000544F4B454E000000434F494E00000000257325733A2532642F2532640000000043524544495425733A25326400000000303030303000000030303030303000002A2A2A2A2A2A0000504153454C493A202573202B20257300504153454C493A2025730000455854524120504153454C493A20257300000000504153454C493A204E4F5420415641494C41424C450000004C4F43414C204D4F444500004F46464C494E45204D4F4445000000004D41494E54454E414E434500434845434B494E4700000000434845434B494E472E000000434845434B494E472E2E0000434845434B494E472E2E2E004F4E4C494E4500004552524F520000004E4F5420415641494C41424C45",
+                "dataEnabled": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+            }
+        ]
+    },
+    {
+        "name": "Disable Background Movies",
+        "description": "Disables background movies from playing during gameplay.",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 2992790,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "6D",
+                "dataEnabled": "5F"
+            },
+            {
+                "offset": 2994529,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "6D",
+                "dataEnabled": "5F"
+            },
+            {
+                "offset": 3009989,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "6D",
+                "dataEnabled": "5F"
+            }
+        ]
+    },
+    {
+        "name": "Sound Offset",
+        "description": "Default = 87",
+        "gameCode": "MDX",
+        "type": "number",
+        "patch": {
+            "dllName": "gamemdx.dll",
+            "offset": 59966,
+            "min": 0,
+            "max": 1000,
+            "size": 4
+        }
+    },
+	{
+        "name": "Fix 'Real Speed' Calculations",
+        "description": "Calculates 'Real Speed' scroll based on Core BPM instead of Max BPM",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1589458,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "90",
+                "dataEnabled": "88"
+            }
+        ]
+    },
+	{
+        "name": "Force Platinum Pass Features",
+        "description": "Force enables Platinum Pass features for all players, regardless of server profile settings",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 63833,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "8A8670123C10",
+                "dataEnabled": "B00190909090"
+            },
+            {
+                "offset": 63947,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "8A8672123C10",
+                "dataEnabled": "B00090909090"
+            },
+            {
+                "offset": 3784844,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "5B35",
+                "dataEnabled": "0000"
+            },
+            {
+                "offset": 3784856,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "CD35",
+                "dataEnabled": "0000"
+            }
+        ]
+    }
+]
