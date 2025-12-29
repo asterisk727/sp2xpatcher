@@ -3,4 +3,4 @@
 ### URL: `https://sp2x.maimaidxprism.plus`
 
 > [!CAUTION]
-> **This is a mirror of the original TWO-TORIAL spice2x patcher. Read more info about this mirror [here](https://two-torial-info.maimaidxprism.plus/)
+> **This is a mirror of the original TWO-TORIAL spice2x patcher. Read more info about this mirror [here](https://two-torial-info.maimaidxprism.plus/)**
