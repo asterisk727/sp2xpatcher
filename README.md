@@ -1,3 +1,3 @@
-# [TWO-TORIAL](https://two-torial.xyz)'s Spice2x Patcher
+# A Temporary Mirror of [TWO-TORIAL](https://two-torial.xyz)'s Spice2x Patcher
 
-### URL: `https://sp2x.two-torial.xyz/`
+### URL: `https://sp2x.maimaidxprism.plus`
