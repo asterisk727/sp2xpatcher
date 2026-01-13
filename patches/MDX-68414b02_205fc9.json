@@ -3,7 +3,7 @@
         "gameCode": "MDX",
         "version": "2025-06-10 (001)",
         "lastUpdated": "2025-09-29 18:18:00",
-        "source": "https://sp2x.two-torial.xyz/"
+        "source": "https://sp2x.maimaidxprism.plus/"
     },
     {
         "name": "Mute Announcer",
@@ -83,7 +83,7 @@
             }
         ]
     },
-	{
+    {
         "name": "Optimize 'NOW LOADING' Screen",
         "description": "Optimizes the 'NOW LOADING' screen on boot, significantly reducing load time (song metadata in-game remains intact)",
         "gameCode": "MDX",
@@ -200,7 +200,7 @@
             "size": 4
         }
     },
-	{
+    {
         "name": "Fix 'Real Speed' Calculations",
         "description": "Calculates 'Real Speed' scroll based on Core BPM instead of Max BPM",
         "gameCode": "MDX",
@@ -214,7 +214,7 @@
             }
         ]
     },
-	{
+    {
         "name": "Force Platinum Pass Features",
         "description": "Force enables Platinum Pass features for all players, regardless of server profile settings",
         "gameCode": "MDX",
