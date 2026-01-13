@@ -206,6 +206,7 @@ Patches for which we don't know the corresponding game version.
 | LDJ-012 | bm2dx.dll | 2025-11-19 | [LDJ-691bd1a0_9db18c](patches/LDJ-691bd1a0_9db18c.json) |
 | LDJ-010 | bm2dx.dll | 2025-12-09 | [LDJ-6930d59c_abe04c](patches/LDJ-6930d59c_abe04c.json) |
 | LDJ-012 | bm2dx.dll | 2025-12-09 | [LDJ-6930d8e9_9f10dc](patches/LDJ-6930d8e9_9f10dc.json) |
+| LDJ-012 | bm2dx.dll | 2026-01-13 | [LDJ-695c6a76_a071dc](patches/LDJ-695c6a76_a071dc.json) |
 
 </details>
 
@@ -302,6 +303,7 @@ Patches for which we don't know the corresponding game version.
 |----------|----------|---------|------------|
 | KFC | soundvoltex.dll | 2025-12-24 | [KFC-694a2601_743f28](patches/KFC-694a2601_743f28.json) |
 | KFC | soundvoltex.dll | 2025-12-26 | [KFC-694cd6fa_743f38](patches/KFC-694cd6fa_743f38.json) |
+| KFC | soundvoltex.dll | 2026-01-13 | [KFC-695f6ac9_7449d8](patches/KFC-695f6ac9_7449d8.json) |
 
 </details>
 
