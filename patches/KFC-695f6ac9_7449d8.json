@@ -2,7 +2,7 @@
     {
         "gameCode": "KFC",
         "version": "2026-01-13",
-        "lastUpdated": "2026-01-13 07:05:17",
+        "lastUpdated": "2026-02-23 07:04:23",
         "source": "https://sp2x.maimaidxprism.plus/"
     },
     {
@@ -461,10 +461,10 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 6457454,
+                "offset": 6052407,
                 "dllName": "soundvoltex.dll",
-                "dataDisabled": "08",
-                "dataEnabled": "05"
+                "dataDisabled": "2B",
+                "dataEnabled": "2A"
             }
         ]
     },
