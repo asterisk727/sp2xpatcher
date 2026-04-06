@@ -38,5 +38,3 @@ A Python script, [peinfo.py](https://github.com/akitakedits/peinfo), is availabl
 **To support a new game version, you need to create its Spice2x patches from scratch.**  
 Hexadecimal signature matching can help in porting patches between different game versions.  
 This method is not foolproof and patches could break if the game changes too much, but it's still highly effective for MOST patches.
-
-**You can use the Python script [find_sp2x_patches.py](https://github.com/akitakedits/find_sp2x_patches) to facilitate this process.**

@@ -1,6 +1,8 @@
-# A Temporary Mirror of [TWO-TORIAL](https://two-torial.xyz)'s Spice2x Patcher
+# [RE: TWO-TORIAL](https://re-two-torial.xyz)'s Spice2x Patcher
 
-### URL: `https://sp2x.maimaidxprism.plus`
+### URL: `https://sp2x.re-two-torial.xyz`
 
-> [!CAUTION]
-> **This is a mirror of the original TWO-TORIAL spice2x patcher. Read more info about this mirror [here](https://two-torial-info.maimaidxprism.plus/)**
+
+## This patcher is deprecated and will no longer be updated going forward, though it will be kept online.
+
+Check out https://github.com/eamuse/sp2xpatcher at https://patcher.573.moe instead!

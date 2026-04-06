@@ -45,7 +45,7 @@ def update_header(json_path, date_code):
                     "gameCode": game_code,
                     "version": date_code,
                     "lastUpdated": last_updated,
-                    "source": 'https://sp2x.maimaidxprism.plus/',
+                    "source": 'https://sp2x.re-two-torial.xyz',
                 }
                 data.insert(0, new_entry)
 
